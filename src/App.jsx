@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import RentalHome from './Assignment'
-function App() {
-  const [count, setCount] = useState(0)
+import AltibbeSite from './AltibbeSite'
 
+function App() {
   return (
-   <div>
-    <RentalHome/>
-   </div>
+    <>
+      <AltibbeSite />
+    </>
   )
 }
 
